@@ -1,1 +1,1 @@
-add_library(add SHARED add.c)
+add_library(add SHARED src/add.c)
