@@ -2,5 +2,6 @@ cmake_minimum_required(VERSION 3.10.2)
 
 project("Add")
 
-add_executable(add main.c lib.c)
-
+include_directories(lib/inc)
+add_subdirectory(lib)
+add_subdirectory(src)
